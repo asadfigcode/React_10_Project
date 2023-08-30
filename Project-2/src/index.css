@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Poppins:wght@400;500;800&display=swap');
+
+:root{
+    --Clr:#D01C28;
+    --gray: #5A5959;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+

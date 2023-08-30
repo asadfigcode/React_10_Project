@@ -1,0 +1,32 @@
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+@media screen and (max-width: 768px){
+    .navigation {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .navigation {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+}
+
